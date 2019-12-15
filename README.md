@@ -2,6 +2,6 @@
 - [x] Criando uma nova página
 - [x] Começando um formulário
 - [x] Tipos de campos diferentes
-- [ ] Melhorando a semântica
-- [ ] CSS avançado
+- [x] Melhorando a semântica
+- [x] CSS avançado
 - [ ] Estrutura de tabelas
