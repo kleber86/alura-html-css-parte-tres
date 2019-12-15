@@ -10,7 +10,7 @@
 <body>
     <header>
         <div class="caixa">
-            <h1><img src="logo.png" alt="logotipo"></h1>
+            <h1><img src="logo.png" alt="Logo da Barbearia Alura"></h1>
             <nav>
                 <ul>
                     <li><a href="principal.html">Home</a></li>
@@ -34,8 +34,8 @@
             <label for="textAreaMensagem">Comentários</label>
             <textarea cols="60" rows="10" id="textAreaMensagem" class="input-padrao" required></textarea>
 
-            <div>
-                <p>Como prefere o nosso contato?</p>
+            <fieldset>
+                <legend>Como prefere o nosso contato?</legend>
                 <label for="inputRadioEmail"><input type="radio" name="contato" value="email" id="inputRadioEmail">E-mail:</label>
                 
 
@@ -43,21 +43,23 @@
                 
 
                 <label for="inputRadioWhatsapp"><input checked type="radio" name="contato" value="whatsapp" id="inputRadioWhatsapp">Whatsapp</label>
-            </div>
+            </fieldset>
 
-            <p>Qual horário prefere ser atendido?</p>
-            <select class="input-padrao">
-                <option value="manha">Manhã</option>
-                <option value="tarde">Tarde</option>
-                <option value="noite">Noite</option>
-            </select>
+            <fieldset>
+                <legend>Qual horário prefere ser atendido?</legend>
+                <select class="input-padrao">
+                    <option value="manha">Manhã</option>
+                    <option value="tarde">Tarde</option>
+                    <option value="noite">Noite</option>
+                </select>
+            </fieldset>
             <label><input type="checkbox" class="checkbox">Gostaria de saber nossas novidade por e-mail?</label>
 
             <input type="submit" value="Enviar">
         </form>
     </main>
     <footer>
-        <img src="logo-branco.png" alt="Logo Rodape">
+        <img src="logo-branco.png" alt="Logo da Barbearia Alura">
         <p class="copyright">&copy Copyright Barbearia Alura - 2019</p>
     </footer>
 </body>
