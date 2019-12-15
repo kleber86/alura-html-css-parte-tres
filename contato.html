@@ -23,16 +23,16 @@
     <main>
         <form>
             <label for="inputNome">Nome e sobremone:</label>
-            <input type="text" id="inputNome" class="input-padrao">
+            <input type="text" id="inputNome" class="input-padrao" required>
 
             <label for="inputEmail">E-mail:</label>
-            <input type="text" id="inputEmail" class="input-padrao">
+            <input type="email" id="inputEmail" class="input-padrao" required placeholder="seuemail@dominio.com.br">
 
             <label for="inputFone">Telefone:</label>
-            <input type="text" id="inputFone" class="input-padrao">
+            <input type="tel" id="inputFone" class="input-padrao" required placeholder="XX XXXXX-XXXX">
 
             <label for="textAreaMensagem">Comentários</label>
-            <textarea cols="60" rows="10" id="textAreaMensagem" class="input-padrao"></textarea>
+            <textarea cols="60" rows="10" id="textAreaMensagem" class="input-padrao" required></textarea>
 
             <div>
                 <p>Como prefere o nosso contato?</p>
@@ -42,7 +42,7 @@
                 <label for="inputRadioTelefone"><input type="radio" name="contato" value="telefone" id="inputRadioTelefone">Telefone</label>
                 
 
-                <label for="inputRadioWhatsapp"><input type="radio" name="contato" value="whatsapp" id="inputRadioWhatsapp">Whatsapp</label>
+                <label for="inputRadioWhatsapp"><input checked type="radio" name="contato" value="whatsapp" id="inputRadioWhatsapp">Whatsapp</label>
             </div>
 
             <p>Qual horário prefere ser atendido?</p>
