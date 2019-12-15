@@ -23,32 +23,30 @@
     <main>
         <form>
             <label for="inputNome">Nome e sobremone:</label>
-            <input type="text" id="inputNome">
+            <input type="text" id="inputNome" class="input-padrao">
 
             <label for="inputEmail">E-mail:</label>
-            <input type="text" id="inputEmail">
+            <input type="text" id="inputEmail" class="input-padrao">
 
             <label for="inputFone">Telefone:</label>
-            <input type="text" id="inputFone">
+            <input type="text" id="inputFone" class="input-padrao">
 
             <label for="textAreaMensagem">Comentários</label>
-            <textarea cols="60" rows="10" id="textAreaMensagem"></textarea>
+            <textarea cols="60" rows="10" id="textAreaMensagem" class="input-padrao"></textarea>
 
             <div>
                 <p>Como prefere o nosso contato?</p>
-                <label for="inputRadioEmail">E-mail:</label>
-                <input type="radio" name="contato" value="email" id="inputRadioEmail">
+                <label for="inputRadioEmail"><input type="radio" name="contato" value="email" id="inputRadioEmail">E-mail:</label>
+                
 
-                <label for="inputRadioTelefone">Telefone</label>
-                <input type="radio" name="contato" value="telefone" id="inputRadioTelefone">
+                <label for="inputRadioTelefone"><input type="radio" name="contato" value="telefone" id="inputRadioTelefone">Telefone</label>
+                
 
-                <label for="inputRadioWhatsapp">Whatsapp</label>
-                <input type="radio" name="contato" value="whatsapp" id="inputRadioWhatsapp">
-
+                <label for="inputRadioWhatsapp"><input type="radio" name="contato" value="whatsapp" id="inputRadioWhatsapp">Whatsapp</label>
             </div>
 
-            <label><input type="checkbox">Gostaria de saber nossas novidade por e-mail?</label>
-            
+            <label><input type="checkbox" class="checkbox">Gostaria de saber nossas novidade por e-mail?</label>
+
             <input type="submit" value="Enviar">
         </form>
     </main>
