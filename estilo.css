@@ -112,3 +112,15 @@ form label, form legend{
     background: #FFFFFF;
     color:black;
 }
+table{
+    margin: 20px 0 40px;
+}
+thead{
+    background: #555555;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+td, th{
+    border: 1px solid #000000;
+    padding: 15px 8px;
+}
