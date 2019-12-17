@@ -4,4 +4,4 @@
 - [x] Tipos de campos diferentes
 - [x] Melhorando a semântica
 - [x] CSS avançado
-- [ ] Estrutura de tabelas
+- [x] Estrutura de tabelas
